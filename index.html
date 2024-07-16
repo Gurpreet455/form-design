@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <section class="bg-grey">
+        <div class="container">
+            <form action="#" class="client-form">
+                <div class="row">
+                    <!-- Step 1 -->
+                    <div class="col-12">
+                        <div class="step-container">
+                            <h4 class="step-heading"><span>1</span> Dealer Details</h4>
+                            <div class="flex-input">
+                               <p><span>State</span><span>Punjab</span></p>
+                               <p><span>District</span><span>Jalandhar</span></p>
+                               
+                            </div>
+                            <div class="flex-input">
+                                <p><span>Dealer Code</span><span>01238</span></p>
+                               <p><span>Dealer Name</span><span>Rohit</span></p>
+                            </div>
+                            <div class="flex-input">
+                               <p><span>Executive</span><span>456456</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <!-- step 1 -->
+                        <div class="step-container">
+                            <h4 class="step-heading"><span>2</span> Prospect Details</h4>
+                            <div class="flex-input">
+                                <div class="form-group">
+                                    <label for="mnumber">Mobile No</label>
+                                    <input type="number" id="mnumber" name="mnumber" placeholder="Mobile No">
+                                </div>
+                                <div class="form-group">
+                                    <label for="fname">Prospect Name</label>
+                                    <input type="text" id="fname" name="fname" placeholder="Prospect Name">
+                                </div>
+                            </div>
+                           <div class="flex-input">
+                            <div class="form-group">
+                                <label for="fathername">Father Name</label>
+                                <input type="text" id="fathername" name="fathername" placeholder="Father Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="address">Address</label>
+                                <input type="text" id="address" name="address" placeholder="Address">
+                            </div>
+                           </div>
+                           <div class="flex-input">
+                               <div class="form-group">
+                                   <label for="pincode">Pincode</label>
+                                   <input type="number" id="pincode" name="pincode" placeholder="Pincode">
+                                </div>
+                               <div class="form-group">
+                                <label for="states">Select a State:</label>
+                                <select id="states" name="states">
+                                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                    <option value="Assam">Assam</option>
+                                    <option value="Bihar">Bihar</option>
+                                    <option value="Chhattisgarh">Chhattisgarh</option>
+                                    <option value="Goa">Goa</option>
+                                    <option value="Gujarat">Gujarat</option>
+                                    <option value="Haryana">Haryana</option>
+                                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                    <option value="Jharkhand">Jharkhand</option>
+                                    <option value="Karnataka">Karnataka</option>
+                                    <option value="Kerala">Kerala</option>
+                                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                    <option value="Maharashtra">Maharashtra</option>
+                                    <option value="Manipur">Manipur</option>
+                                    <option value="Meghalaya">Meghalaya</option>
+                                    <option value="Mizoram">Mizoram</option>
+                                    <option value="Nagaland">Nagaland</option>
+                                    <option value="Odisha">Odisha</option>
+                                    <option value="Punjab">Punjab</option>
+                                    <option value="Rajasthan">Rajasthan</option>
+                                    <option value="Sikkim">Sikkim</option>
+                                    <option value="Tamil Nadu">Tamil Nadu</option>
+                                    <option value="Telangana">Telangana</option>
+                                    <option value="Tripura">Tripura</option>
+                                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                    <option value="Uttarakhand">Uttarakhand</option>
+                                    <option value="West Bengal">West Bengal</option>
+                                </select>
+                                </div>
+
+                            </div>
+                           <div class="flex-input">
+                               <div class="form-group">
+                                <label for="districtSelect">Select a District:</label>
+                                <select id="districtSelect">
+                                    <option value="district1">District 1</option>
+                                    <option value="district2">District 2</option>
+                                    <option value="district3">District 3</option>
+                                    <option value="district4">District 4</option>
+                                    <option value="district5">District 5</option>
+                                    <option value="district6">District 6</option>
+                                    <option value="district7">District 7</option>
+                                </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="tehsilSelect">Tehsil:</label>
+                                    <select id="tehsilSelect">
+                                        <option value="tehsil1">Tehsil A</option>
+                                        <option value="tehsil2">Tehsil B</option>
+                                        <option value="tehsil3">Tehsil C</option>
+                                        <option value="tehsil4">Tehsil D</option>
+                                        <option value="tehsil5">Tehsil E</option>
+                                    </select>
+                                    </div>
+
+                            </div>
+                           <div class="flex-input">
+                               <div class="form-group">
+                                <label for="villageSelect">Village:</label>
+                                <select id="villageSelect">
+                                    <option value="village1">Village X</option>
+                                    <option value="village2">Village Y</option>
+                                    <option value="village3">Village Z</option>
+                                    <option value="village4">Village P</option>
+                                    <option value="village5">Village Q</option>
+                                </select>
+                                </div>
+                               <div class="form-group">
+                                <label for="salesmanSelect">Salesman:</label>
+                                <select id="salesmanSelect">
+                                    <option value="salesman1">John Doe</option>
+                                    <option value="salesman2">Jane Smith</option>
+                                    <option value="salesman3">Michael Johnson</option>
+                                    <option value="salesman4">Emily Brown</option>
+                                    <option value="salesman5">David Wilson</option>
+                                </select>
+                                </div>
+
+                            </div>
+                           <div class="flex-input">
+                               <div class="form-group">
+                                <label for="custCategorySelect">Customer Category:</label>
+                                <select id="custCategorySelect">
+                                    <option value="category1">Category A</option>
+                                    <option value="category2">Category B</option>
+                                    <option value="category3">Category C</option>
+                                    <option value="category4">Category D</option>
+                                    <option value="category5">Category E</option>
+                                </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="landline">Landline</label>
+                                    <input type="number" id="landline" name="landline" placeholder="Landline">
+                                 </div>
+
+                            </div>
+                           <div class="flex-input">
+                            <div class="form-group">
+                                <label for="emailid">Email ID</label>
+                                <input type="email" id="emailid" name="emailid" placeholder="Email ID">
+                             </div>
+                               <div class="form-group">
+                                <label for="landSizeSelect">Land Size:</label>
+                                    <select id="landSizeSelect">
+                                        <option value="size1">1 acre</option>
+                                        <option value="size2">2 acres</option>
+                                        <option value="size3">3 acres</option>
+                                        <option value="size4">4 acres</option>
+                                        <option value="size5">5 acres</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Step 3 -->
+                    <div class="col-6">
+                        <div class="step-container">
+                            <h4 class="step-heading"><span>3</span> Enquiry Details</h4>
+                            <div class="flex-input">
+                                <div class="form-group">
+                                    <label for="topics">Profile of Buyers</label>
+                                        <select id="topics" name="topics">
+                                        <option value="profile">Profile of Buyers 1</option>
+                                        <option value="models">Profile of Buyers 2</option>
+                                        </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="intersted">Intersted Models</label>
+                                        <select id="intersted" name="intersted">
+                                        <option value="profile1">Intersted Models 1</option>
+                                        <option value="models2">Intersted Models 2</option>
+                                        </select>
+                                </div>
+                            </div>
+                            <div class="flex-input">
+                                <div class="form-group">
+                                    <label for="Comp1">Int Comp Models</label>
+                                        <select id="Comp1" name="Comp1">
+                                        <option value="Comp2">Int Comp Models 1</option>
+                                        <option value="Comp3">Int Comp Models 2</option>
+                                        </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="tractor">Usage of Tractor</label>
+                                        <select id="tractor" name="tractor">
+                                        <option value="tractor1">Usage of Tractor 1</option>
+                                        <option value="tractor2">Usage of Tractor 2</option>
+                                        </select>
+                                </div>
+                            </div>
+                            <div class="flex-input">
+                                <div class="form-group">
+                                    <label for="application">Application</label>
+                                        <select id="application" name="application">
+                                        <option value="application2">Application 1</option>
+                                        <option value="application3">Application 2</option>
+                                        </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="crop">Crop</label>
+                                        <select id="crop" name="crop">
+                                        <option value="crop1">Crop 1</option>
+                                        <option value="crop2">Crop 2</option>
+                                        </select>
+                                </div>
+                            </div>
+                            <div class="flex-input">
+                                <div class="form-group">
+                                    <label for="date">Enquiry Date</label>
+                                      <input type="date" name="date" id="date">
+                                </div>
+                                <div class="form-group">
+                                    <label for="soe">Source of Enquiry</label>
+                                        <select id="soe" name="soe">
+                                        <option value="soe1">Enquiry 1</option>
+                                        <option value="soe2">Enquiry 2</option>
+                                        </select>
+                                </div>
+                            </div>
+                            <div class="flex-input">
+                                <div class="form-group">
+                                    <label for="edb">Event Done By</label>
+                                    <select id="edb" name="edb">
+                                        <option value="edb1">Event Done By 1</option>
+                                        <option value="edb2">Event Done By 2</option>
+                                        </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="epd">Exp Purchase Date</label>
+                                        <select id="epd" name="epd">
+                                        <option value="epd1">Exp Purchase Date 1</option>
+                                        <option value="epd2">Exp Purchase Date 2</option>
+                                        </select>
+                                </div>
+                            </div>
+                            <div class="flex-input">
+                                <div class="form-group">
+                                    <label for="egb">Exp Gen By(Dlr Emp) </label>
+                                        <select id="egb" name="egb">
+                                        <option value="egb1">Exp Gen By 1</option>
+                                        <option value="egb2">Exp Gen By 2</option>
+                                        </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="egbee">Exp Gen By(Esc Exe) </label>
+                                        <select id="egbee" name="egbee">
+                                        <option value="egbee1">Exp Gen By 1</option>
+                                        <option value="egbee2">Exp Gen By 2</option>
+                                        </select>
+                                </div>
+                            </div>
+                            <div class="flex-input">
+                                <div class="form-group">
+                                    <label for="it">Influncer Type</label>
+                                        <select id="it" name="it">
+                                        <option value="it1">Influncer Type 1</option>
+                                        <option value="it2">Influncer Type 2</option>
+                                        </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="itty">Influncer</label>
+                                        <select id="itty" name="itty">
+                                        <option value="itty1">Influncer 1</option>
+                                        <option value="itty2">Influncer 2</option>
+                                        </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="remark">Remark</label>
+                                    <textarea id="remark" name="remark" rows="1" cols="50" placeholder="Remark">
+                                    </textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- step 4 -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="step-container">
+                            <h4 class="step-heading"><span>4</span> Additional Details</h4>
+                            <div class="flex-input">
+                                <div class="form-group">
+                                    <label for="dob">DOB</label>
+                                        <select id="dob" name="dob">
+                                        <option value="dob1">DOB 1</option>
+                                        <option value="dob2">DOB 2</option>
+                                        </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="ms">Marrital Status</label>
+                                        <select id="ms" name="ms">
+                                        <option value="ms1">Single</option>
+                                        <option value="ms2">UnMarried</option>
+                                        </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="doba">Date of Anniversary</label>
+                                        <select id="doba" name="doba">
+                                        <option value="doba1">Date 1</option>
+                                        <option value="doba2">Date 2</option>
+                                        </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- step 5 -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="step-container">
+                            <h4 class="step-heading"><span>5</span> Finance Details</h4>
+                            <div class="flex-input">
+                                <div class="form-group">
+                                    <label for="mof">Mode Of Finance</label>
+                                        <select id="mof" name="mof">
+                                        <option value="mof1">Mode Of Finance 1</option>
+                                        <option value="mof2">Mode Of Finance 2</option>
+                                        </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="fs">Fincancer</label>
+                                        <select id="fs" name="fs">
+                                        <option value="fs1">Fincancer 1</option>
+                                        <option value="fs2">Fincancer 2</option>
+                                        </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="rd">Referred Date</label>
+                                        <select id="rd" name="rd">
+                                        <option value="rd1">Date 1</option>
+                                        <option value="rd2">Date 2</option>
+                                        </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button>Submit</button>
+            </form>
+            
+        </div>
+    </section>
+</body>
+</html>
