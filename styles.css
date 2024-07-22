@@ -99,6 +99,16 @@ form.client-form {
     color: #07074D;
     margin-bottom: 2px;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
 .form-group input, .form-group select, .form-group textarea {
     font-size: 16px;
     border-radius: 8px;
